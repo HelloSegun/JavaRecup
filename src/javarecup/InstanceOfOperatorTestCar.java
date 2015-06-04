@@ -19,5 +19,7 @@ public class InstanceOfOperatorTestCar extends Vehicle {
         // following will return true since name is type of String
         boolean result = a instanceof InstanceOfOperatorTestCar;
         System.out.print(result);
+        
+        
     }
 }
