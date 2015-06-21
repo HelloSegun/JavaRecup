@@ -9,12 +9,14 @@ package javarecup;
 /**
  *
  * @author segun
- * Java - Basic Syntax
- * http://www.tutorialspoint.com/java/java_basic_syntax.htm
+ * Java Loop Control
+ * http://www.tutorialspoint.com/java/java_loop_control.htm
  */
-public class HelloWorld {
+public class ForLoop {
     
-    public static void main(String arg[]) {
-        System.out.println("Hello World");
+    public static void main(String args[]) {
+        for (int x = 10; x < 30; x = x+1) {
+            System.out.println(x);
+        }
     }
 }

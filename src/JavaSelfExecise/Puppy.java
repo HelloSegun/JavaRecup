@@ -43,7 +43,7 @@ public class Puppy {
         System.out.println("The one " + action );
         System.out.println("Age " + puppyAge + " weeks old");
         System.out.println("Colour " + colour);
-        System.out.println(" ");
+        System.out.println("\n");
         
     }
 }

@@ -34,6 +34,12 @@ public class Car {
         year = yearMade;
     }
     
+    public int getYearMade() {
+        System.out.println("Year made is: " + year);
+        System.out.println(" ");
+        return year;
+    }
+    
     public void carColour(String carColour) {
         colour = carColour;
     }

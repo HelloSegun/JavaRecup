@@ -9,6 +9,8 @@ package javarecup;
 /**
  *
  * @author segun
+ * Java - Variable Types
+ * http://www.tutorialspoint.com/java/java_variable_types.htm
  */
 public class EmployeeClassStaticVariable {
     

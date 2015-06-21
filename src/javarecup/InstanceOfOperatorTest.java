@@ -9,6 +9,8 @@ package javarecup;
 /**
  *
  * @author segun
+ * Java - Basic Operators
+ * http://www.tutorialspoint.com/java/java_basic_operators.htm
  */
 public class InstanceOfOperatorTest {
     

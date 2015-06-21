@@ -9,6 +9,8 @@ package javarecup;
 /**
  *
  * @author segun
+ * Java - Basic Operators
+ * http://www.tutorialspoint.com/java/java_basic_operators.htm
  */
 Class Vehicle {} //The class will not run due to error - this error is on purpose
 

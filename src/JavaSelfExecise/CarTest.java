@@ -22,11 +22,15 @@ public class CarTest {
         firstCar.carColour("Blue");
         firstCar.carProflie();
         
+        //firstCar.getYearMade();
+        
         secondCar.carMake("Audi");
         secondCar.carModel("RS 3");
         secondCar.yearMade(2015);
         secondCar.carColour("Grey");
         secondCar.carProflie();
+        
+        //secondCar.getYearMade();
         
         
     }

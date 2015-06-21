@@ -9,6 +9,8 @@ package javarecup;
 /**
  *
  * @author segun
+ * Java - Basic Syntax
+ * http://www.tutorialspoint.com/java/java_basic_syntax.htm
  */
 
 class FreshJuice {

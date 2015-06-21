@@ -9,6 +9,8 @@ package javarecup;
 /**
  *
  * @author segun
+ * Java - Object & Classes
+ * http://www.tutorialspoint.com/java/java_object_classes.htm
  */
 public class EmployeeTest {
     
