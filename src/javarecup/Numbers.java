@@ -142,6 +142,29 @@ public class Numbers {
         System.out.println(Math.round(g));
     }
     
+    public void xMin() {
+        System.out.println(Math.min(12.123, 12.456));
+        System.out.println(Math.min(23.12, 23.0));
+    }
+    
+    public void xMax() {
+        System.out.println(Math.max(12.123, 12.456));
+        System.out.println(Math.max(23.12, 23.0));
+    }
+    
+    /**
+     * Study more to understand
+    public void xExp() {
+        double x = 11.635;
+        double y = 2.76;
+        
+        System.out.printf("The value of e is %.4f%n", Math.E);
+        System.out.printf("exp(%.3f) is %.3f%n", x, Math.exp(y));
+        
+        //System.out.println("The value of e is " + Math.exp(x));
+        //System.out.println("The value of e is " + Math.exp(y));
+    }
+    */
     public static void main(String args[]) {
         
         Numbers number = new Numbers();
@@ -154,6 +177,9 @@ public class Numbers {
         //number.xAbs();
         //number.xCeil();
         //number.xRint();
-        number.xRound();
+        //number.xRound();
+        //number.xMin();
+        number.xMax();
+        //number.xExp();
     }
 }
