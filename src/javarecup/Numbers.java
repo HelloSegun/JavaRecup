@@ -98,6 +98,50 @@ public class Numbers {
         System.out.println(Math.abs(f));
     }
     
+    public void xCeil() {
+        double d = -100.675;
+        float f = -90;
+        
+        System.out.println(Math.ceil(d));
+        System.out.println(Math.ceil(f));
+        
+        System.out.println(Math.floor(d));
+        System.out.println(Math.floor(f));
+    }
+    
+    public void xFloor() {
+        double d = -100.675;
+        float f = -90;
+        
+        System.out.println(Math.floor(d));
+        System.out.println(Math.floor(f));
+        
+        System.out.println(Math.ceil(d));
+        System.out.println(Math.ceil(f));
+    }
+    
+    public void xRint() {
+        double d = 100.675;
+        double e = 100.500;
+        double f = 100.200;
+        
+        System.out.println(Math.rint(d));
+        System.out.println(Math.rint(e));
+        System.out.println(Math.rint(f));
+    }
+    
+    public void xRound() {
+        double d = 100.675;
+        double e = 100.500;
+        float f = 100;
+        float g = 90f;
+        
+        System.out.println(Math.round(d));
+        System.out.println(Math.round(e));
+        System.out.println(Math.round(f));
+        System.out.println(Math.round(g));
+    }
+    
     public static void main(String args[]) {
         
         Numbers number = new Numbers();
@@ -107,6 +151,9 @@ public class Numbers {
         //number.xValueOf();
         //number.xtoString();
         //number.xParseInt();
-        number.xAbs();
+        //number.xAbs();
+        //number.xCeil();
+        //number.xRint();
+        number.xRound();
     }
 }
