@@ -46,8 +46,8 @@ public class Numbers {
     }
     
     public void xValueOf() {
-        Integer x = Integer.valueOf(9);
-        Double c = Double.valueOf(5);
+        Integer x = Integer.valueOf(9); //returns x as Integer
+        Double c = Double.valueOf(5); //returns c as double
         Float a = Float.valueOf("80"); //turns a string into float number
         
         /**
@@ -66,12 +66,47 @@ public class Numbers {
         System.out.println(b);
     }
     
+    public void xtoString() {
+        Integer x = 5;
+        
+        System.out.println(x.toString());
+        System.out.println(Integer.toString(12));
+        //System.out.println(Integer.toString(444, 16));
+    }
+    
+    public void xParseInt() {
+        int x = Integer.parseInt("9"); //returns string as Integer
+        double c = Double.parseDouble("5"); //returns strings as double
+        
+        /*
+        * similar return as statement in xValueOf method
+        */
+        int b = Integer.parseInt("444", 16);
+        
+        System.out.println(x);
+        System.out.println(c);
+        System.out.println(b);
+    }
+    
+    public void xAbs() {
+        Integer a = -8;
+        double d = -100;
+        float f = -90;
+        
+        System.out.println(Math.abs(a));
+        System.out.println(Math.abs(d));
+        System.out.println(Math.abs(f));
+    }
+    
     public static void main(String args[]) {
         
         Numbers number = new Numbers();
         //number.xxxValue();
         //number.xCompareTo();
         //number.xEquals();
-        number.xValueOf();
+        //number.xValueOf();
+        //number.xtoString();
+        //number.xParseInt();
+        number.xAbs();
     }
 }
