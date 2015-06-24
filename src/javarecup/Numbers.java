@@ -159,12 +159,46 @@ public class Numbers {
         double y = 2.76;
         
         System.out.printf("The value of e is %.4f%n", Math.E);
-        System.out.printf("exp(%.3f) is %.3f%n", x, Math.exp(y));
-        
-        //System.out.println("The value of e is " + Math.exp(x));
-        //System.out.println("The value of e is " + Math.exp(y));
+        System.out.printf("exp(%.3f) is %.3f%n", x, Math.exp(x));
     }
     */
+    
+    /**
+     * public void xLog() {}
+     * public void xPow() {}
+     * public void xSqrt() {}
+     * public void xSin() {}
+     * public void xCos() {}
+     * public void xTan() {}
+     * public void xAsin() {}
+     * public void xAcos() {}
+     * public void xAtan() {}
+     * public void xTan2() {}
+     * 
+     */
+    
+    public void xToDegrees() {
+        double x = 45.0;
+        double y = 30.0;
+        
+        System.out.println(Math.toDegrees(x));
+        System.out.println(Math.toDegrees(y));
+    }
+    
+    public void xToRadians() {
+        double x = 45.0;
+        double y = 30.0;
+        
+        System.out.println(Math.toRadians(x));
+        System.out.println(Math.toRadians(y));
+    }
+    
+    public void xRandom() {
+        
+        System.out.println(Math.random());
+        System.out.println(Math.random());
+    }
+    
     public static void main(String args[]) {
         
         Numbers number = new Numbers();
@@ -179,7 +213,11 @@ public class Numbers {
         //number.xRint();
         //number.xRound();
         //number.xMin();
-        number.xMax();
+        //number.xMax();
         //number.xExp();
+        //number.Log();
+        //number.xToDegrees();
+        //number.xToRadians();
+        number.xRandom();
     }
 }
