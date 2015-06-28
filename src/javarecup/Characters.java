@@ -14,6 +14,11 @@ package javarecup;
  */
 public class Characters {
     
+    public void xSequenceCharacter() {
+        
+        System.out.println("She said \"Hello!\" to me.");
+    }
+    
     public void xIsLetter() {
         
         System.out.println(Character.isLetter('c'));
@@ -71,6 +76,7 @@ public class Characters {
      public static void main(String args[]) {
          
          Characters cha = new Characters();
+         //cha.xSequenceCharacter();
          //cha.xIsLetter();
          //cha.xIsDigit();
          //cha.xIsWhitespace();
