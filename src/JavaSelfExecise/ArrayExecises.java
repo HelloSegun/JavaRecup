@@ -49,16 +49,53 @@ public class ArrayExecises {
         
         for (int i = 0; i < aryNums.length; i = i + 1) {
             
-            System.out.println(aryNums[]);
+            //System.out.println(aryNums[i]);
         }
          //System.out.println();
-        //System.out.println(aryNums);
+        System.out.println(aryNums[5]);
     }
+     
+     public void arysExe3() {
+         int[] aryNums = new int[6];
+         
+         aryNums[0] = 23;
+         aryNums[1] = 6;
+         aryNums[2] = 47;
+         aryNums[3] = 35;
+         aryNums[4] = 2;
+         aryNums[5] = 14;
+         
+         for(int i : aryNums) {
+             if(i % 2 == 1) {
+                 System.out.println(i);
+             }
+         }
+     }
+     
+     public void multiDimensionalArray() {
+         int rows = 6;
+         int columns = 5;
+         
+         int[][] aryNums = new int[rows][columns];
+         int i, j;
+         int z = 1;
+         for(i = 0; i < rows; i = i + 1) {
+             
+             for(j = 0; j < columns; j = j + 1) {
+                 aryNums[i][j] = z;
+                 System.out.print(aryNums[i][j] + " ");
+             }
+             z = z + 1;
+             System.out.println("");
+         }
+     }
     
     public static void main(String args[]) {
         ArrayExecises aryEx = new ArrayExecises();
         
         //aryEx.arysExe1();
-        aryEx.arysExe2();
+        //aryEx.arysExe2();
+        //aryEx.arysExe3();
+        aryEx.multiDimensionalArray();
     }
 }
