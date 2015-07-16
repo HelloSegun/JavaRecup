@@ -64,16 +64,27 @@ public class DateDemo {
     }
     
     public void measuringElapsedTime() {
-        
+        try {
+            long start = System.currentTimeMillis();
+            System.out.println(new Date() + "\n");
+            Thread.sleep(5*60*10);
+            System.out.println(new Date() + "\n");
+            long end = System.currentTimeMillis();
+            long diff = end - start;
+            System.out.println("Difference is : " + diff);
+        } catch (Exception e) {
+            System.out.println("Got an exception!");
+        }
     }
     
     public static void main(String args[]) {
        
         DateDemo date = new DateDemo();
         
-        date.currentDateAndTime();
-        date.simpleDateFormat();
-        date.printF();
-        date.sleepDemo();
+        //date.currentDateAndTime();
+        //date.simpleDateFormat();
+        //date.printF();
+        //date.sleepDemo();
+        date.measuringElapsedTime();
     }
 }
