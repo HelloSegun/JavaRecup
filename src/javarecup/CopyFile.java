@@ -15,12 +15,12 @@ import java.io.*;
 public class CopyFile {
     
     public static void main(String[] args) throws IOException {
-        FileInputStream in = null;
-        FileOutputStream out = null;
+        FileReader in = null;
+        FileWriter out = null;
         
         try {
-            in = new FileInputStream("input.txt");
-            out = new FileOutputStream("Output.txt");
+            in = new FileReader("C:/Users/segun/Documents/NetBeansProjects/JavaRecup/src/javarecup/DocumentFiles/input.txt");
+            out = new FileWriter("C:/Users/segun/Documents/NetBeansProjects/JavaRecup/src/javarecup/DocumentFiles/Output.txt");
             
             int c;
             while ((c = in.read()) != -1) {
