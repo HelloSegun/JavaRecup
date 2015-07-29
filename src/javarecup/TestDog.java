@@ -9,6 +9,8 @@ package javarecup;
 /**
  *
  * @author segun
+ * Java - Overriding
+ * http://www.tutorialspoint.com/java/java_overriding.htm
  */
 class Animal {
     public void move() {
