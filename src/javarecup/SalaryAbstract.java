@@ -36,6 +36,6 @@ public class SalaryAbstract extends EmployeeAbstract {
     
     public double computePay() {
         System.out.println("Computing salary pay for " + getName());
-        return salary;
+        return salary/52.00;
     }
 }
